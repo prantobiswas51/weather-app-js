@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Ropa+Sans&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Ropa Sans", sans-serif;
+    color: #fff;
+}
+
+body{
+    background: linear-gradient(35deg, rgba(35, 5, 170, 0.5), rgba(7, 255, 255, 0.5));
+    height: 100vh;
+}
+
+.app_container{
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0');
+    width: 400px;
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+    margin: 100px auto 0;
+}
+
+.cityName{
+    padding: 15px;
+    min-width: 250px;
+    border: none;
+    font-size: 20px;
+    color: #000000;
+    border-bottom: solid 4px #049c5f;
+    border-radius: 5px;
+    
+}
+
+.cityName:focus{
+    outline: none !important;
+}
+
+.search{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    
+    > button{
+        padding: 10px;
+        border: none;
+        margin-left: 5px;
+        border-bottom: solid 4px #049c5f;
+        border-radius: 5px;
+    }
+}
+
+#searchBtn{
+    height: 30px;
+    
+}
+
+.errorMsg{
+    color: red !important;
+    font-size: 20px;
+    margin-top: 20px;
+    display: none;
+
+}
+
+.details{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px;
+}
+
+.temp{
+    font-size: 70px;
+    margin: 10px;
+}
+
+.city{
+    margin: 10px;
+    margin-bottom: 50px;
+    font-size: 35px;
+}
+
+.col{
+    display: flex;
+    flex-direction: row;
+    >img{
+        width: 50px;
+        margin-right: 10px;
+    }
+
+    >div>p{
+        font-size: 20px;
+    }
+}
