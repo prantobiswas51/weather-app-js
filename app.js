@@ -1,6 +1,6 @@
 console.log("Weather App Started");
 
-const apiKey = "b0b08c60d66d99aaf3cbee9cf2d9d229";
+const apiKey = "OpenWeather API Key";
 const apiUrl = "https://api.openweathermap.org/data/2.5/weather?units=metric&q=";
 
 const searchBox = document.querySelector(".cityName");
